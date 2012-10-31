@@ -1,7 +1,31 @@
-Raspberry pi radio
+Raspberry Pi Radio
 
 Feature List:
-pianobar
-mp3 player of some kind
-php web interface
+* = implemented
+web configuration panel
+audio control
 python gpio controls
+python gpio lcd display
+
+	Pandora:
+		web interface *
+		python controls
+
+	mp3/mp4/ogg:
+		web interface
+		python contols
+
+REQUIREMENTS
+Apache2.0+
+PHP5+
+Python2.7+
+Pianobar
+
+Notes
+
+Apache needs permission to pianobar.
+This can be solved by change the user apache runs as.
+
+The web page doesn't generate the user list yet.
+For the time being each user needs to be hard coded.
+This will be change in the future.
